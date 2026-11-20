@@ -16,7 +16,7 @@ function RutaPrivada({ children }) {
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/AgroConecta">
         <Navbar />
         <Routes>
           <Route path="/login" element={<Login />} />
